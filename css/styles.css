@@ -1,0 +1,45 @@
+html, body{
+    margin: 0px;
+    background-color: #68d8d6;
+    color: white;
+}
+
+
+.titulo {
+    /* text-align: center; */
+    background-color: #001d3d;
+    padding: 20px;
+    font-size: 30px;   
+}
+
+
+.carta{
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-left: -75px;
+}
+
+#computadora-cartas, #jugador-cartas{
+    height: 230px;
+}
+
+/* .cartadoblada{
+    position: relative;
+    width: 150px;
+    transform: rotate(20deg);
+    left: 120px;
+}
+
+.cartadoblada2{
+    position: relative;
+    width: 150px;
+    transform: rotate(-20deg);
+    left: -120px;
+}
+
+#dos-cartas {
+    padding-top: 20px;
+    background-color: white;
+    height: 270px;
+} */

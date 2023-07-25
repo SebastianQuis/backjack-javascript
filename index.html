@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de cartas 21</title>
+
+    <!-- CDN: content delivery network -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    
+    <!-- Referencias -->
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <header class="titulo">
+        BlackJack - Play
+    </header>
+
+    <div class="row mt-3">
+        <div class="col text-center" id="botones">
+            <button id="btnNuevo" class="btn-success">Nuevo juego</button>
+            <button id="btnPedir" class="btn-primary">Pedir carta</button>
+            <button id="btnDetener" class="btn-danger">Detener</button>
+        </div>
+    </div>
+
+    <div class="row container mt-3">
+        <div class="col">
+            <h1>Jugador - <small>0</small></h1>
+            <div id="jugador-cartas">
+                <!-- <img class="carta" src="assets/cartas/4C.png"> -->
+            </div>
+        </div>
+    </div>
+    
+    <div class="row container mt-3">
+        <div class="col">
+            <h1>Computadora - <small>0</small></h1>
+            <div id="computadora-cartas">
+                <!-- <img class="carta" src="assets/cartas/5C.png">  -->
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="col container text-center mt-4">
+        <div id="dos-cartas">
+            <img class="cartadoblada" src="assets/cartas/AD.png"></img>
+            <img class="cartadoblada2" src="assets/cartas/AE.png"></img>
+        </div>
+    </div> -->
+
+    
+    <!-- <script src="js/underscore-min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.6/underscore-umd-min.js"></script>
+    <script src="js/juego.js"></script>
+</body>
+</html>
